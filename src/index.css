@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 97vh;
+    align-items: center;
+    background-color: rgb(115, 117, 117);
+}
+
+.container div {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container {
+    border: 3px solid;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.box {
+    font-family: monospace;
+}
+
+.box button {
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 15px;
+    color: white;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.start-button {
+    background-color: hsla(129, 71%, 46%, 0.7);
+}
+
+.start-button:hover {
+    background-color: hsla(118, 100%, 50%, 0.3);
+}
+
+.stop-button {
+    background-color: hsla(0, 70%, 27%, 0.9);
+}
+
+.stop-button:hover {
+    background-color: hsla(0, 70%, 27%, 0.7);
+}
+
+.reset-button {
+    background-color: hsla(201, 96%, 27%, 0.9);
+}
+
+.reset-button:hover {
+    background-color: hsla(201, 96%, 27%, 0.4);
+}
